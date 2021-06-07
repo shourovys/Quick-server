@@ -20,9 +20,10 @@ const foodItemSchema = new Schema(
       type: String,
       required: true,
     },
-    menu: {
+    menuTime: {
       type: [String],
       required: true,
+      default: ['Breakfast', 'Lunch', 'Diner'],
     },
     image: {
       type: String,

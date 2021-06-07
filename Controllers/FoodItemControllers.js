@@ -23,7 +23,7 @@ foodItemController.updateFoodItem = async (req, res) => {
     });
     console.log(
       '🚀 ~ file: FoodItemControllers.js ~ line 24 ~ foodItemController.updateFoodItem= ~ updated',
-      updated,
+      updated
     );
     return res.send(updated);
   } catch (error) {
